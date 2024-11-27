@@ -58,11 +58,32 @@
         <mxCell id="hCrbw9FhNNtImvgFaIb2-22" value="Operating mode?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="302" y="520" width="160" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="hCrbw9FhNNtImvgFaIb2-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="hCrbw9FhNNtImvgFaIb2-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="710" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="180" y="710" />
+              <mxPoint x="380" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="hCrbw9FhNNtImvgFaIb2-26" value="ManualRoutine ()" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="630" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="hCrbw9FhNNtImvgFaIb2-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="hCrbw9FhNNtImvgFaIb2-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="710" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="580" y="710" />
+              <mxPoint x="391" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="hCrbw9FhNNtImvgFaIb2-30" value="AnalogRoutine()" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hCrbw9FhNNtImvgFaIb2-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hCrbw9FhNNtImvgFaIb2-32" target="hCrbw9FhNNtImvgFaIb2-38">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hCrbw9FhNNtImvgFaIb2-32" value="ImpulseRoutine()" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="322" y="630" width="120" height="60" as="geometry" />
@@ -75,6 +96,9 @@
         </mxCell>
         <mxCell id="hCrbw9FhNNtImvgFaIb2-36" value="IMPULSE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="374" y="590" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hCrbw9FhNNtImvgFaIb2-38" value="Pump.external_stop == ACTIVE ?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="247" y="750" width="270" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
