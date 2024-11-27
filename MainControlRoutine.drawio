@@ -4,8 +4,44 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="hCrbw9FhNNtImvgFaIb2-1" value="Main control routine." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="284" y="70" width="260" height="60" as="geometry" />
+        <mxCell id="hCrbw9FhNNtImvgFaIb2-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hCrbw9FhNNtImvgFaIb2-1" target="hCrbw9FhNNtImvgFaIb2-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hCrbw9FhNNtImvgFaIb2-1" value="&lt;b&gt;Main control routine.&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="284" y="70" width="196" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hCrbw9FhNNtImvgFaIb2-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hCrbw9FhNNtImvgFaIb2-6" target="hCrbw9FhNNtImvgFaIb2-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hCrbw9FhNNtImvgFaIb2-6" value="Initialize device" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="322" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hCrbw9FhNNtImvgFaIb2-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hCrbw9FhNNtImvgFaIb2-10" target="hCrbw9FhNNtImvgFaIb2-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hCrbw9FhNNtImvgFaIb2-10" value="Infinite Loop&lt;div&gt;START.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="322" y="230" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hCrbw9FhNNtImvgFaIb2-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hCrbw9FhNNtImvgFaIb2-12" target="hCrbw9FhNNtImvgFaIb2-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hCrbw9FhNNtImvgFaIb2-12" value="Get initial ticks" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="322" y="290" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hCrbw9FhNNtImvgFaIb2-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hCrbw9FhNNtImvgFaIb2-14" target="hCrbw9FhNNtImvgFaIb2-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hCrbw9FhNNtImvgFaIb2-14" value="Analog read update" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="322" y="350" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hCrbw9FhNNtImvgFaIb2-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hCrbw9FhNNtImvgFaIb2-16" target="hCrbw9FhNNtImvgFaIb2-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hCrbw9FhNNtImvgFaIb2-16" value="UpdatePumpStatus ()" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="302" y="420" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hCrbw9FhNNtImvgFaIb2-20" value="UpdateOperatingMode()" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="297" y="480" width="170" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
