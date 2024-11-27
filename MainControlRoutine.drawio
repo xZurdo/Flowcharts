@@ -40,8 +40,41 @@
         <mxCell id="hCrbw9FhNNtImvgFaIb2-16" value="UpdatePumpStatus ()" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="302" y="420" width="160" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="hCrbw9FhNNtImvgFaIb2-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hCrbw9FhNNtImvgFaIb2-20" target="hCrbw9FhNNtImvgFaIb2-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="hCrbw9FhNNtImvgFaIb2-20" value="UpdateOperatingMode()" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="297" y="480" width="170" height="30" as="geometry" />
+          <mxGeometry x="297" y="470" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hCrbw9FhNNtImvgFaIb2-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hCrbw9FhNNtImvgFaIb2-22" target="hCrbw9FhNNtImvgFaIb2-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hCrbw9FhNNtImvgFaIb2-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hCrbw9FhNNtImvgFaIb2-22" target="hCrbw9FhNNtImvgFaIb2-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hCrbw9FhNNtImvgFaIb2-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hCrbw9FhNNtImvgFaIb2-22" target="hCrbw9FhNNtImvgFaIb2-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hCrbw9FhNNtImvgFaIb2-22" value="Operating mode?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="302" y="520" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hCrbw9FhNNtImvgFaIb2-26" value="ManualRoutine ()" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hCrbw9FhNNtImvgFaIb2-30" value="AnalogRoutine()" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hCrbw9FhNNtImvgFaIb2-32" value="ImpulseRoutine()" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="322" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hCrbw9FhNNtImvgFaIb2-34" value="MANUAL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="170" y="540" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hCrbw9FhNNtImvgFaIb2-35" value="ANALOG" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="520" y="540" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hCrbw9FhNNtImvgFaIb2-36" value="IMPULSE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="374" y="590" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
