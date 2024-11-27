@@ -97,8 +97,41 @@
         <mxCell id="hCrbw9FhNNtImvgFaIb2-36" value="IMPULSE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="374" y="590" width="80" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="hCrbw9FhNNtImvgFaIb2-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="hCrbw9FhNNtImvgFaIb2-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="570" y="820" />
+              <mxPoint x="570" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hCrbw9FhNNtImvgFaIb2-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hCrbw9FhNNtImvgFaIb2-38" target="hCrbw9FhNNtImvgFaIb2-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="hCrbw9FhNNtImvgFaIb2-38" value="Pump.external_stop == ACTIVE ?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="247" y="750" width="270" height="80" as="geometry" />
+          <mxGeometry x="247" y="780" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hCrbw9FhNNtImvgFaIb2-50" value="YES" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="525" y="778" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hCrbw9FhNNtImvgFaIb2-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="hCrbw9FhNNtImvgFaIb2-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="920" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="570" y="980" />
+              <mxPoint x="570" y="920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hCrbw9FhNNtImvgFaIb2-52" value="Pump.alarm == ACTIVE ?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="277" y="940" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hCrbw9FhNNtImvgFaIb2-55" value="YES" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="525" y="940" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hCrbw9FhNNtImvgFaIb2-56" value="NO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="380" y="868" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
